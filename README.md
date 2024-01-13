@@ -1,8 +1,9 @@
 # ProiectPOO (85% functional)
 
-Vision
+## Vision
 Our vision is to create an app that allows users to create custom flows for processes they use in their work.
-Background
+
+## Background
 As companies go through the digitalization process, they need to move their process to apps that can help them automate and optimize their work. 
 
 It is important for stakeholders to create flows needed for their own processes and be able to create new ones easily. 
@@ -10,9 +11,11 @@ It is important for stakeholders to create flows needed for their own processes 
 At the same time it is important to see analytics about their processes to see how they can adapt them.
 
 Companies like UiPath, IBM, Oracle have invested in tools to create processes.
-Goal
+
+## Goal
 Create a process builder that can help users make their own flows.
-Types of steps
+
+## Types of steps
 TITLE step: title (string), subtitle (string)
 TEXT step: title (string), copy (string)
 TEXT INPUT step: description (string), text input (string)
@@ -23,7 +26,8 @@ TEXT FILE input step: description, file_name
 CSV FILE input step: description, file_name
 OUTPUT step: step (integer), name of file (string), title (text), description (text)
 END step
-User stories
+
+## User stories
 As a user, I want to build flows using existing predefined steps.
 As a user, I want to see what steps are available for me and a description of those steps.
 As a user, I want to be able to create new flows.
